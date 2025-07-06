@@ -7,7 +7,7 @@ document.getElementById('startButton').addEventListener('click', () => {
 async function startSignalGeneration() {
     const fs = 44100; // Sampling frequency
     const frequencies = [];
-    for (let f = 100; f <= 25000; f += 500) {
+    for (let f = 100; f <= 10000; f += 500) {
         frequencies.push(f);
     }
 
